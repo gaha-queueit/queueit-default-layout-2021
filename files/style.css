@@ -1,0 +1,280 @@
+﻿/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');*/
+
+body {
+    background-color: #fff;
+    color: #000;
+    /*
+    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    */
+}
+
+/* iframe size */
+
+/*
+#toppanel {
+    height: 100px;
+    width: 100%;
+}
+
+#toppanel_iframe {
+    width: 100%;
+}
+*/
+
+/* hide default background images - beginning */
+
+
+#main .t, #main .b {
+    display: none;
+}
+
+#main .c, .warning-box, .processbar-box, .processbar-box .holder {
+    background-image: none;
+    color: inherit;
+}
+
+#content {
+    color: inherit;
+    font-weight: 400;
+}
+
+/* hide default background images - end */
+
+/* hide empty containers - beginning */
+
+.after .warning-box, .after .processbar-box, .error .processbar-box, .exit .processbar-box {
+    display: none;
+}
+
+/* hide empty containers - end */
+
+#main {
+    width: auto;
+    margin: 0 auto;
+    padding: 15px 0;
+    max-width: 514px;
+}
+
+#main-top {
+    padding: 0 15px;
+}
+
+#main-top-message {
+    text-align: center;
+}
+
+#main .c {
+    width: auto;
+    padding: 0 15px;
+}
+
+#header {
+    padding: 5px 0px 10px 0px;
+    font-weight: 400;
+    color: inherit;
+    border: none;
+}
+
+    #header h2 {
+        font-weight: 400;
+        margin: 15px 0;
+    }
+
+a {
+    color: inherit;
+}
+
+.warning-box {
+    min-height: 0;
+    border: none;
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+#MainPart_lbManualUpdateWarning {
+    margin: 15px 0;
+}
+
+.alert {
+    padding: 8px 15px;
+}
+
+.alert-error {
+    border-color: #b94a48;    
+    color: #b94a48;
+}
+
+.alert-success {
+    border-color: #468847;
+}
+
+.processbar-box {
+    line-height: normal;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+    .processbar-box p {
+        margin: 0;
+    }
+
+    .processbar-box .holder {
+        min-height: 0;
+        padding: 20px 0 10px 0;
+        border: none;
+    }
+
+        .processbar-box .holder .larger {
+            min-height: 0;
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+
+.time-box {
+    margin: 0 0 20px 0;
+    background-color: #ccc;
+    color: inherit;
+}
+
+    .time-box .frame {
+        min-height: 0;
+        padding: 15px;
+    }
+
+    .time-box h2 {
+        font-weight: 400;
+        color: inherit;
+    }
+
+.reminder-form {
+    margin: 0;
+    min-height: 0;
+}
+
+    .reminder-form form {
+        font-size: 0;
+    }
+
+    .reminder-form h2 {
+        font-weight: 400;
+        color: inherit;
+    }
+
+    .reminder-form .item-input {
+        padding: 9px 15px;
+        font-size: 15px;
+        background: #fff;
+        border: 1px solid #adaeb0;
+        color: #4D4D4D;
+        font-family: inherit;
+        font-weight: 400;
+        box-sizing: border-box;
+        line-height: normal;
+        width: auto;
+        min-width: 250px;
+        vertical-align: top;
+        margin: 0 20px 5px 0;
+    }
+
+        .reminder-form .item-input:focus {
+            outline: none;
+            font-weight: 400;
+        }
+
+/*
+        .reminder-form .item-input::-webkit-input-placeholder {
+            color: #8a8b8f;
+        }
+        .reminder-form .item-input::-moz-placeholder {
+            color: #8a8b8f;
+        }
+        .reminder-form .item-input:-ms-input-placeholder {
+            color: #8a8b8f;
+        }
+        .reminder-form .item-input:-moz-placeholder {
+            color: #8a8b8f;
+        }
+*/
+
+.btn {
+    background-color: #3DAF2C;
+    color: #fff;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    white-space: nowrap;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 0;
+    box-sizing: border-box;
+    /*font-weight: bold;*/
+}
+
+    .btn:hover {
+        background: none;
+        background-color: #297d1d;
+        box-shadow: none;
+    }
+
+    .btn:focus {
+        outline: none;
+    }
+
+    .btn:active {
+        top: 0;
+    }
+
+.block {
+    padding: 0;
+}
+
+    .block a {
+        color: inherit;
+    }
+
+#footer {
+    width: auto;
+    color: inherit;
+    padding: 0;
+    font-weight: 400;
+}
+
+#footer-direct-link {
+    padding: 0;
+}
+
+#footer a {
+    color: inherit;
+}
+
+#footer .by {
+    padding: 0;
+}
+
+@media screen and (max-width:480px) {
+
+    .reminder-form .item-input {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    #footer {
+        margin: 0;
+    }
+
+        #footer .by {
+            margin-top: 30px;
+        }
+}
